@@ -16,4 +16,9 @@ button {
   font-size: 20px;
   padding: 22px 24px;
   text-align: center;
+  transition: transform 0.2s; /* Added a CSS transition for smooth enlargement */
+}
+
+button:hover {
+  transform: scale(1.2); /* Enlarges the button by 20% on hover */
 }
